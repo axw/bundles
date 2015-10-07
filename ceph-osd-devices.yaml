@@ -1,7 +1,7 @@
 series: trusty
 services:
     ceph:
-        charm: local:trusty/ceph
+        charm: cs:~axwalk/trusty/ceph
         constraints: mem=8G
         options:
             fsid: ecbb8960-0e21-11e2-b495-83a88f44db01 
